@@ -1,0 +1,103 @@
+$width: 1000px;
+$height: 600px;
+/*yt default is 640x390*/
+/* Color Scheme http://www.colourlovers.com/palette/443995/i_demand_a_pancake*/
+$gray: #594F4F;
+$deepblue: #547980;
+$bluegreen: #45ADA8;
+$seagreen: #9DE0AD;
+$eggshell: #E5FCC2;
+
+body{
+	background: $gray;
+	width: $width;
+	height: $height;
+}
+
+header {
+	margin: 10px;
+}
+
+h1 { 
+	margin: 0;
+	font-family: 'Syncopate', arial, serif; 
+	font-size:50px;
+	color: $eggshell;	
+}
+
+ul {
+	list-style:none;
+	margin: 0;
+	padding: 5px;
+	font-family: 'Droid Sans', arial, serif;
+	font-size: 14px;
+	a {
+		color: $eggshell;
+		text-decoration: none;
+	}
+}
+
+@mixin rounded {
+	$radius: 10px;
+
+	border-radius: $radius;
+	-moz-border-radius: $radius;
+	-webkit-border-radius: $radius;
+}
+
+@mixin shadow{
+	$offset: 3px;
+	$blur: 2px;
+	$color: darken($deepblue, 20%);
+	-moz-box-shadow: $offset $offset $blur $color;
+	-webkit-box-shadow: $offset $offset $blur $color;
+	box-shadow: $offset $offset $blur $color;
+}
+
+#left_panel{
+
+	background: $deepblue;
+	color: $eggshell;
+	width: 360px;
+	height: 500px;
+	float: left;
+	overflow: auto;
+	margin-left: 5px;
+	padding: 2px;
+	@include rounded;
+	@include shadow;
+	li {
+		border-bottom: 2px ridge #45ADA8;
+		&:hover {
+			color: $gray;
+			background: $bluegreen;
+		} 
+	}
+}
+
+#right_panel{
+	width: 620px;
+	height: 500px;
+	float: right;
+	margin-right: 5px;
+	float:right;
+}
+
+#right_top_panel {
+	height: 400;
+	text-align: center;
+	padding-top:5px;
+}
+
+#right_bottom_panel{
+	background: $deepblue;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	@include rounded;	
+	@include shadow;
+}
+
+
+
