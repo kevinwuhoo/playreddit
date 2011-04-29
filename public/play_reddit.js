@@ -1,3 +1,4 @@
+var currSong = "";
 
 function load_song (key) {
 	
@@ -65,13 +66,14 @@ function load_prev() {
 	currSong = currSong.prev();
 }
 
-function onYouTubePlayerReady(playerId) {
-  ytplayer = document.getElementById("player");
-  ytplayer.addEventListener("onStateChange", "youtubePlayNext");
-}
 function youtubePlayNext(newState) {
 	 if (newState === 0)
 		load_next();
+}
+
+function onYouTubePlayerReady(playerId) {
+  ytplayer = document.getElementById("player");
+  ytplayer.addEventListener("onStateChange", "youtubePlayNext");
 }
 
 $(function() {
