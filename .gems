@@ -1,5 +1,4 @@
 sinatra
 sass
 nokogiri
-open-uri
 json
