@@ -7,7 +7,7 @@
 	<script src="jquery.mousewheel.js" type="text/javascript"></script>
 	<script src="jquery.jscrollpane.min.js" type="text/javascript"></script>
 	<script src="play_reddit.js" type="text/javascript"></script>
-
+	<script src="soundcloud.player.api.js" type="text/javascript"></script>
 
 	<link rel="stylesheet" type="text/css" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/themes/vader/jquery-ui.css" /> 
 	<link rel="stylesheet" type="text/css" href="stylesheet.css" /> 	
@@ -20,7 +20,7 @@
 
 <body>
 	<script>
-	var music = <%= @music.to_json %>
+		var music = <%= @music.to_json %>
 	</script>
 	
 	<header>
@@ -29,8 +29,12 @@
 
 	<div id="left_panel">
 		<ul id="song_list">
-			<% @music.keys.each do |l| %>
-			<li><%= l %></li>
+			<% @music.keys.each_with_index do |l,i| %>
+				<% if i == 0 %>
+					<li id="first_song"><%= l %></li>
+				<% else %>
+					<li><%= l %></li>
+				<% end %>
 			<% end %>
 		</ul>
 	</div>
@@ -39,8 +43,6 @@
 		<div id="right_top_panel">
 		</div>
 
-		<!-- http://jqueryui.com/demos/button/#toolbar -->
-		<!-- http://jqueryui.com/themeroller/ -->
 		<div id="right_bottom_panel">
 			<large><button id="prev">prev</button><large>
 				<button id="play">play</button>
@@ -48,5 +50,10 @@
 		</div>
 	</div>
 
+	<script>
+		//var curr_song = $('#first_song');
+		//load_song(curr_song.text());
+	</script>
+	
 </body>
 </html>
