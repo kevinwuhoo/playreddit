@@ -12,7 +12,7 @@ get '/' do
     @scrape_reddit = Nokogiri::HTML(open("http://www.reddit.com/r/#{subreddit}"))
     @links = @scrape_reddit.xpath('//a[@class="title "]')
     @links.each do |l|
-      if l['href'].include? 'youtube' and not l['href'].include? 'search_query'
+      if l['href'].include? 'youtube.com/watch?v='
         puts l['href']
         yt_id = l['href'].match(/v=.{11}/)[0][2, l['href'].length]
         @music[l.content] = [yt_id, true]
