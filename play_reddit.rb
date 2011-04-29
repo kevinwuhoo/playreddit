@@ -1,6 +1,6 @@
 require 'sinatra'
 require 'sass'
-require 'Nokogiri'
+require 'nokogiri'
 require 'open-uri'
 require 'json'
 
