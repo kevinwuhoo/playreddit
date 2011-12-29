@@ -1,2 +1,2 @@
-require 'play_reddit'
+require './play_reddit'
 run Sinatra::Application

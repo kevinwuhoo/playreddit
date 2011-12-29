@@ -1,16 +1,8 @@
 DO THIS:
-Highlight current track.
-Play/pause does not operate correctly.
-Random/repeat button.
+Repeat button.
 Link to reddit.
 Add landing page if no query string.
+Dynamic additional music loading.
 
 Playlist functionality?
-Each vid with unique id so linkable?
-Scrape more than one page.
 Pre-buffer.
-
-Color scheme is ugly.
-
-DONE SON:
-X Add query string support to select subreddit.
