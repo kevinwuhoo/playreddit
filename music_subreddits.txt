@@ -1,0 +1,116 @@
+<span class="title">Electronic Music</span>
+<ul>
+<li class="recommend"><a href="http://www.reddit.com/r/ElectronicMusic">/r/ElectronicMusic</a></li>
+<li class="recommend"><a href="http://www.reddit.com/r/DubStep">/r/DubStep</a></li>
+<li class="recommend"><a href="http://www.reddit.com/r/DnB">/r/DnB</a></li>
+<li class="recommend"><a href="http://www.reddit.com/r/mixes">/r/mixes</a></li>
+<li class="recommend"><a href="http://www.reddit.com/r/Trance">/r/Trance</a></li>
+<li class="recommend"><a href="http://www.reddit.com/r/chiptunes">/r/Chiptunes</a></li>
+<li><a href="http://www.reddit.com/r/ExperimentalMusic">/r/ExperimentalMusic</a></li>
+
+<li><a href="http://www.reddit.com/r/ElectronicJazz">/r/ElectronicJazz</a></li>
+<li><a href="http://www.reddit.com/r/FutureBeats">/r/FutureBeats</a></li>
+<li><a href="http://www.reddit.com/r/ukfunky">/r/ukfunky</a></li>
+<li><a href="http://www.reddit.com/r/FutureGarage">/r/FutureGarage</a></li>
+<li><a href="http://www.reddit.com/r/Grime">/r/Grime</a></li>
+<li><a href="http://www.reddit.com/r/mashups">/r/mashups</a></li>
+<li><a href="http://www.reddit.com/r/idm">/r/idm</a></li>
+<li><a href="http://www.reddit.com/r/house">/r/house</a></li>
+<li><a href="http://www.reddit.com/r/electrohouse">/r/electrohouse</a></li>
+
+<li><a href="http://www.reddit.com/r/psytrance">/r/psytrance</a></li>
+<li><a href="http://www.reddit.com/r/minimal">/r/minimal</a></li>
+<li><a href="http://www.reddit.com/r/fidget">/r/fidget</a></li>
+<li><a href="http://www.reddit.com/r/hardstyle">/r/hardstyle</a></li>
+<li><a href="http://www.reddit.com/r/darkstep">/r/darkstep</a></li>
+<li><a href="http://www.reddit.com/r/breakcore">/r/breakcore</a></li>
+<li><a href="http://www.reddit.com/r/industrialmusic">/r/industrialmusic</a></li>
+<li><a href="http://www.reddit.com/r/raggajungle">/r/raggajungle</a></li>
+<li><a href="http://www.reddit.com/r/happyhardcore">/r/happyhardcore</a></li>
+
+<li><a href="http://www.reddit.com/r/gabber">/r/gabber</a></li>
+<li><a href="http://www.reddit.com/r/glitch">/r/glitch</a></li>
+<li><a href="http://www.reddit.com/r/breakbeat">/r/breakbeat</a></li>
+<li><a href="http://www.reddit.com/r/glitchop">/r/glitchop</a></li>
+<li><a href="http://www.reddit.com/r/glitch">/r/glitch</a></li>
+<li><a href="http://www.reddit.com/r/ambientmusic">/r/ambientmusic</a></li>
+<li><a href="http://www.reddit.com/r/skweee">/r/skweee</a></li>
+<li><a href="http://www.reddit.com/r/futurefunkairlines">/r/FutureFunkAirlines</a></li>
+</ul>
+
+<span class="title">Rock / Metal</span>
+<ul>
+<li class="recommend"><a href="http://www.reddit.com/r/metal">/r/metal</a></li>
+<li class="recommend"><a href="http://www.reddit.com/r/punk">/r/punk</a></li>
+<li><a href="http://www.reddit.com/r/HardRock">/r/HardRock</a></li>
+<li><a href="http://www.reddit.com/r/Grunge">/r/Grunge</a></li>
+<li><a href="http://www.reddit.com/r/Truemetal">/r/Truemetal</a></li>
+<li><a href="http://www.reddit.com/r/Punkskahardcore">/r/Punkskahardcore</a></li>
+<li><a href="http://www.reddit.com/r/PostHardcore">/r/PostHardcore</a></li>
+
+<li><a href="http://www.reddit.com/r/noiserock">/r/noiserock</a></li>
+<li><a href="http://www.reddit.com/r/stonerrock">/r/stonerrock</a></li>
+<li><a href="http://www.reddit.com/r/progrockmusic">/r/progrockmusic</a></li>
+<li><a href="http://www.reddit.com/r/ProgMetal">/r/ProgMetal</a></li>
+<li><a href="http://www.reddit.com/r/rock">/r/Rock</a></li>
+<li><a href="http://www.reddit.com/r/AORmelodic">/r/AORMelodic</a></li>
+<li><a href="http://www.reddit.com/r/EmoScreamo">/r/EmoScreamo</a></li>
+<li><a href="http://www.reddit.com/r/Punk_Rock">/r/Punk_Rock</a></li>
+<li><a href="http://www.reddit.com/r/poppunkers">/r/poppunkers</a></li>
+
+</ul>
+<span class="title">Hip Hop</span>
+<ul>
+<li class="recommend"><a href="http://www.reddit.com/r/HipHopHeads">/r/HipHopHeads</a></li>
+<li><a href="http://www.reddit.com/r/Rap">/r/Rap</a></li>
+<li><a href="http://www.reddit.com/r/altrap">/r/altrap</a></li>
+</ul>
+<span class="title">Other</span>
+<ul>
+<li class="recommend"><a href="http://www.reddit.com/r/jazz">/r/jazz</a></li>
+<li class="recommend"><a href="http://www.reddit.com/r/gamemusic">/r/gamemusic</a></li>
+
+<li class="recommend"><a href="http://www.reddit.com/r/classicalmusic">/r/classicalmusic</a></li>
+<li class="recommend"><a href="http://www.reddit.com/r/retromusic">/r/RetroMusic</a></li>
+<li class="recommend"><a href="http://www.reddit.com/r/country">/r/country</a></li>
+<li class="recommend"><a href="http://www.reddit.com/r/rootsmusic">/r/rootsmusic</a></li>
+<li><a href="http://www.reddit.com/r/70s">/r/70s</a></li>
+<li><a href="http://www.reddit.com/r/folk">/r/folk</a></li>
+<li><a href="http://www.reddit.com/r/bluegrass">/r/bluegrass</a></li>
+<li><a href="http://www.reddit.com/r/chillmusic">/r/chillmusic</a></li>
+<li><a href="http://www.reddit.com/r/triphop">/r/triphop</a></li>
+
+<li><a href="http://www.reddit.com/r/reggae">/r/reggae</a></li>
+<li><a href="http://www.reddit.com/r/ska">/r/ska</a></li>
+<li><a href="http://www.reddit.com/r/orchestra">/r/orchestra</a></li>
+<li><a href="http://www.reddit.com/r/treemusic">/r/treemusic</a></li>
+<li><a href="http://www.reddit.com/r/WorldMusic">/r/WorldMusic</a></li>
+<li><a href="http://www.reddit.com/r/FunkSouMusic">/r/FunkSouMusic</a></li>
+<li><a href="http://www.reddit.com/r/SoundsVintage">/r/SoundsVintage</a></li>
+<li><a href="http://www.reddit.com/r/postrock">/r/postrock</a></li>
+<li><a href="http://www.reddit.com/r/blues">/r/Blues</a></li>
+
+<li><a href="http://www.reddit.com/r/tango">/r/Tango</a></li>
+<li><a href="http://www.reddit.com/r/filmmusic">/r/FilmMusic</a></li>
+<li><a href="http://www.reddit.com/r/swinghouse">/r/swinghouse</a></li>
+<li><a href="http://www.reddit.com/r/kpop">/r/K-Pop</a></li>
+</ul>
+</td>
+<td class="community" style="vertical-align:top">
+<span class="title">Any Genre</span>
+<ul>
+<li class="recommend"><a href="http://www.reddit.com/r/ListenToThis">/r/ListenToThis</a></li>
+<li class="recommend"><a href="http://www.reddit.com/r/RadioReddit">/r/RadioReddit</a></li>
+
+<li class="recommend"><a href="http://www.reddit.com/r/freemusic">/r/freemusic</a></li>
+<li class="recommend"><a href="http://www.reddit.com/r/CoverSongs">/r/CoverSongs</a></li>
+<li><a href="http://www.reddit.com/r/ThisIsOurMusic">/r/ThisIsOurMusic</a></li>
+<li><a href="http://www.reddit.com/r/MyMusic">/r/MyMusic</a></li>
+<li><a href="http://www.reddit.com/r/RedditOriginals">/r/RedditOriginals</a></li>
+<li><a href="http://www.reddit.com/r/Music">/r/Music</a></li>
+<li><a href="http://www.reddit.com/r/heady">/r/heady</a></li>
+<li><a href="http://www.reddit.com/r/unheardof">/r/unheardof</a></li>
+<li><a href="http://www.reddit.com/r/HighFidelity">/r/HighFidelity</a></li>
+
+<li><a href="http://www.reddit.com/r/lyrics">/r/Lyrics</a></li>
+</ul>
