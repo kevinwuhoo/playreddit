@@ -1,4 +1,5 @@
 sinatra
 sass
-nokogiri
 json
+haml
+coffee-script
