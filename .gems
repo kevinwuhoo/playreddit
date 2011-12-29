@@ -3,3 +3,4 @@ sass
 json
 haml
 coffee-script
+therubyracer-heroku
