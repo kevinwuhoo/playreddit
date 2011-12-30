@@ -125,21 +125,22 @@ showPlay = ->
 $ ->
   # Scrape reddit by using query string in url
   url = window.location.href
-  query = url.substring(url.indexOf("?") + 1, url.length)
-  console.log(query)
-  $.ajax "/scrape?r=#{query}",
-    dataType:'json'
-    async: false
-    success: (data) -> 
-      music = data
+  if url.indexOf("?") != -1
+    query = url.substring(url.indexOf("?") + 1, url.length)
+    console.log(query)
+    $.ajax "/scrape?r=#{query}",
+      dataType:'json'
+      async: false
+      success: (data) -> 
+        music = data
 
-  for title, data of music
-    $("#playlist").append("<li>#{title}</li>")
+    for title, data of music
+      $("#playlist").append("<li>#{title}</li>")
 
-  # Autoplay first song  
-  $('#play').hide()
-  loadSong($('#playlist li:first-child').text())
-  $('#playlist li:first-child').toggleClass("selected")
+    # Autoplay first song  
+    $('#play').hide()
+    loadSong($('#playlist li:first-child').text())
+    $('#playlist li:first-child').toggleClass("selected")
 
   # Current Song Highlighting
   $("ul#playlist li").click ->
@@ -169,3 +170,25 @@ $ ->
     else
       scplayer = soundcloud.getPlayer 'player'
       scplayer.api_pause()
+
+  # <--------------- landing page js ------------------>
+  subreddits = []
+  addSubreddit = (subreddit) ->
+    subreddits.push(subreddit)
+    $("#subreddits").html(subreddits.join(", "))
+    $("#playthem").show()
+
+  $("#subreddit_input").keypress (event) ->
+    if event.which is 13
+      addSubreddit($(@).val())
+      $(@).val("")
+
+  $("td").click ->
+    addSubreddit($(@).html())
+
+  $("#playthem").click ->
+    redirect = window.location.href
+    subreddits = subreddits.join(",")
+    redirect += "?" + subreddits
+    window.location.href = redirect
+  # <------------- end landing page js ----------------->

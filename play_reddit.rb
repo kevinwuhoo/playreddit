@@ -19,7 +19,11 @@ require 'coffee-script'
 # DataMapper.auto_upgrade!
 
 get '/' do
-  haml :play_reddit
+  if params.size == 0
+    haml :landing
+  else
+    haml :play_reddit
+  end
 end
 
 # Scrapes reddit json page
@@ -45,7 +49,7 @@ def extract_links(reddit_page)
   end
 
   last_id = reddit_page['data']['after']
-  puts last_id
+  # puts last_id
   return @music, last_id
 end
 
@@ -66,7 +70,10 @@ get '/scrape' do
       scraped_music2, last_id = extract_links(reddit_page)      
       # @music = scraped_music
 
-      @music = scraped_music.merge(scraped_music2)
+      @music.merge!(scraped_music)
+      @music.merge!(scraped_music2)
+      
+      # puts @music.size
 
     end
   end

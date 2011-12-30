@@ -1,25 +1,7 @@
-%html
-  %head
-    %script{:src => "//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js", :type => "text/javascript"}
-    %script{:src => "http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js", :type => "text/javascript"}
-    %script{:src => "playreddit.js", :type => "text/javascript"}
-    %script{:src => "soundcloud.player.api.js", :type => "text/javascript"}
-
-    %link{:rel => "stylesheet", :type => "text/css", :href => "playreddit.css"}   
-    
-    %link{:href => 'http://fonts.googleapis.com/css?family=Syncopate', :rel => 'stylesheet', :type =>'text/css'}
-    %link{:href => 'http://fonts.googleapis.com/css?family=Droid+Sans', :rel => 'stylesheet', :type => 'text/css'}
-
-  %body
-
-    %header
-      %h1 Play Reddit
-
-    #video
-    %ul{:id => "playlist"}
-    %footer
-      %img{:src => "prev.png", :class => "button", :id => "prev"}
-      %img{:src => "play.png", :class => "button", :id => "play"}
-      %img{:src => "pause.png", :class => "button", :id => "pause"}
-      %img{:src => "next.png", :class => "button", :id => "next"}
-
+#video
+%ul{:id => "playlist"}
+%footer
+  %img{:src => "prev.png", :class => "button", :id => "prev"}
+  %img{:src => "play.png", :class => "button", :id => "play"}
+  %img{:src => "pause.png", :class => "button", :id => "pause"}
+  %img{:src => "next.png", :class => "button", :id => "next"}
