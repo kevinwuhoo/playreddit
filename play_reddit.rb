@@ -4,6 +4,8 @@ require 'open-uri'
 require 'json'
 require 'haml'
 require 'coffee-script'
+require 'htmlentities'
+
 
 # DataMapper::setup(:default, ENV['DATABASE_URL'] || 
 #     "sqlite3://#{File.join(File.dirname(__FILE__), 'db', 'play_reddit.db')}")
@@ -35,15 +37,23 @@ def extract_links(reddit_page)
     media = data['media'] if !data['media'].nil?
     oembed = media['oembed'] if !media.nil? and !media['oembed'].nil?
 
+    # CAUTION -- CONTINUE HERE IF OEMBED IS NULL
+    # otherwise have to catch in every statement
+    if oembed.nil?
+      next
+    end
+
+    oembed['title'] = HTMLEntities.new().decode(oembed['title'])
+
     # Youtube
-    if !oembed.nil? and data['domain'] == 'youtube.com'
+    if data['domain'] == 'youtube.com'
       # @music[oembed['title']] = {url:oembed['url'], reddit:data['permalink']}
       yt_url = oembed['url']
       yt_id = yt_url.match(/v=.{11}/)[0][2, yt_url.length]
       @music[oembed['title']] = {ytid:yt_id, url:yt_url, reddit:data['permalink']}
 
     # Soundcloud
-    elsif !oembed.nil? and data['domain'] == 'soundcloud.com'
+    elsif data['domain'] == 'soundcloud.com'
       @music[oembed['title']] = {url:data['url'], reddit:data['permalink']}
     end
   end

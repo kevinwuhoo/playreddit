@@ -4,3 +4,4 @@ json
 haml
 coffee-script
 therubyracer
+htmlentities

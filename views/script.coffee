@@ -62,10 +62,10 @@ loadSong = (key) ->
 
       # Soundcloud auto-advance
       soundcloud.addEventListener 'onMediaEnd', (player, data) -> 
-        loadNext
+        loadNext()
 
       soundcloud.addEventListener 'onPlayerError', (player, data) ->
-        loadNext
+        loadNext()
 
       soundcloud.addEventListener 'onMediaPause', (player, data) ->
         showPlay()
@@ -82,8 +82,8 @@ loadSong = (key) ->
       $('#video').css "top", top_margin
       $('#video').css "left", "10px"
 
-  else
-    console.log "key not in array"
+  # else
+    # console.log "key not in array"
 
 loadNext = ->
   nextSong = $('.selected').next()
@@ -127,7 +127,7 @@ $ ->
   url = window.location.href
   if url.indexOf("?") != -1
     query = url.substring(url.indexOf("?") + 1, url.length)
-    console.log(query)
+    # console.log(query)
     $.ajax "/scrape?r=#{query}",
       dataType:'json'
       async: false
