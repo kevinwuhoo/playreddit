@@ -46,7 +46,7 @@ def extract_links(reddit_page)
     oembed['title'] = HTMLEntities.new().decode(oembed['title'])
 
     # Youtube
-    if data['domain'] == 'youtube.com'
+    if data['domain'] == 'youtube.com' and !oembed['url'].nil?
       # @music[oembed['title']] = {url:oembed['url'], reddit:data['permalink']}
       yt_url = oembed['url']
       yt_id = yt_url.match(/v=.{11}/)[0][2, yt_url.length]
