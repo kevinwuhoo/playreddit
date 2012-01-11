@@ -144,6 +144,15 @@ ul#playlist li.selected {
 
   td {
   	padding: 0 1em;
+    border: solid 1px transparent;
+  }
+
+  td:hover {
+  	padding: 0 1em;
+    border: solid 1px white;
+	  -moz-border-radius: 5px;
+    border-radius: 5px;
+	  cursor: pointer;
   }
 
   input {
